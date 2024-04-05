@@ -14,10 +14,10 @@ class Categoria (models.Model):
 class Receita (models.Model):
 
     DIFICULDADES=[
-        ('EASY','Fácil'),
-        ('MEDIUM', 'Moderado'),
-        ('HARD', 'Difícil'),
-    ]
+        ('Fácil','Fácil'),
+        ('Moderado', 'Moderado'),
+        ('Difícil', 'Difícil'),
+        ]
 
 
 
